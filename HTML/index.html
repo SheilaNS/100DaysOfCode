@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-container">
+    <h1 class="header-title">Contact Form</h1>
+    <p class="header-p">Please fill the text in the fields</p>
+  </header>
+  <main class="main-container">
+    <form
+      class="form-container"
+      action="https://formsubmit.co/031af43b44409ab5efbf905a7498a156"
+      method="POST"
+    >
+      <label class="label" for="name">
+        <p class="label-p">Your Name:</p>
+        <input
+          class="name-input"
+          id="name"
+          type="text"
+          placeholder="Your Full Name"
+        />
+      </label>
+      <label class="label" for="email">
+        <p class="label-p">Your E-mail:</p>
+        <input
+          class="email-input"
+          id="email"
+          type="email"
+          placeholder="Valid Email Address"
+        />
+      </label>
+      <label class="label" for="message">
+        <p class="label-p">Message:</p>
+        <textarea class="textarea" id="message"></textarea>
+      </label>
+      <label class="label" for="subject">
+        <p class="label-p">Subject:</p>
+        <input
+          class="subject-input"
+          id="subject"
+          type="text"
+          placeholder="Job Inquiry"
+        />
+      </label>
+      <button
+        class="submit-btn"
+        type="submit"
+      >
+        SEND
+      </button>
+    </form>
+  </main>
+</body>
+</html>
