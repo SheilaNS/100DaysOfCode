@@ -57,6 +57,7 @@ body {
 
 .label-p {
   margin: 4px;
+  font-weight: 600;
 }
 
 .name-input, .email-input, .subject-input {
